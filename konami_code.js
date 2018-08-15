@@ -14,7 +14,7 @@ const codes = [
 function init() {
   // your code here
   console.log('I am in function init')
-  document.body.addEventListener('keydown', alert('You click'));
+  document.body.addEventListener('keydown', onKeyDownHandler);
   
   function onKeyDownHandler(e) {
     const key = e.key;
