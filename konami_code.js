@@ -25,7 +25,9 @@ function init() {
       console.log('key', key);
       
       if(index === codes.length) 
-      { alert("Hurray"); 
+      { 
+      console.log('index', index)
+      alert("Hurray"); 
       index = 0;
       }
     } else {
