@@ -23,6 +23,7 @@ function init() {
     if ( key === codes[index]) {
       index++;
       console.log('key', key);
+      alert('aqui si')
       
       if(index === codes.length) 
       { 
