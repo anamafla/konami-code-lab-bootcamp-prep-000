@@ -21,7 +21,6 @@ function init() {
     const key = e.key;
     
     if ( key === codes[index]) {
-      index++;
       console.log('key', key);
       alert('aqui si');
       
@@ -33,6 +32,7 @@ function init() {
       index = 0;
       }
     } else {
+      alert('You are wrong')
       index = 0;
     }
   }
