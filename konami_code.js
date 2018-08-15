@@ -31,7 +31,6 @@ function init() {
       index = 0;
       }
     } else {
-      alert('You are wrong')
       index = 0;
     }
   }
